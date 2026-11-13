@@ -74,6 +74,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
 
    Place the stockfish folder/executable inside the project directory next to bot.js (or specify your custom path inside bot.js).
    It should look like this:
+   
 <img width="654" height="259" alt="image" src="https://github.com/user-attachments/assets/d4246b82-ba54-4dce-96c4-9552627921bf" />
 <img width="680" height="202" alt="image" src="https://github.com/user-attachments/assets/4b940066-d42d-497d-b17e-16a62dbe5b62" />
 **NOTE:** Once you have downloaded Stockfish and placed it in a folder, don't forget to rename it to "stockfish.exe" (the original filename often includes the word "universal" and version numbers; you should remove all of that and rename the file to "stockfish.exe").
