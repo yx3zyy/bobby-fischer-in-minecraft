@@ -24,7 +24,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
  * !chess black 3+2 (or !chess white 3+2): starts a game with timer
   
 * **In-game controls:**
-  * !resign: player resigns
+ * !resign: player resigns
  * !draw: player requests a draw
  * !time: shows the time remaining for both sides
 
@@ -35,7 +35,15 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
  * Example: e4, e5, Nf3, Nc6 (nf6, nc6 also works, bot fixes it)
  * Castling: o-o, o-o-o
  * Promote: e8=Q (or e8q)
-   
+
+* * **Reducing power:**
+  * If you find the bot too difficult (or too boring), you can adjust its power in the `bot.js` file. (You will find a photo related to this below.)
+  * 0 - 5: Beginner
+  * 5 - 10: Club Player
+  * 10 - 15: Titled Player
+  * 15 20: Max power / Super GM / GM Level
+    <img width="794" height="113" alt="image" src="https://github.com/user-attachments/assets/d88becaf-6142-46ab-abe2-79d9ef58333f" />
+
 ## 🛠️ Tech Stack
 
 * **Language:** JavaScript (Node.js)
@@ -56,3 +64,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
 3. **Download Stockfish:**
    Download the official Stockfish binary for your operating system from stockfishchess.org.
    Place the stockfish folder/executable inside the project directory next to bot.js (or specify your custom path inside bot.js).
+
+3. **Configure & Run:**
+   Open bot.js and configure your server host, port, and bot credentials. (You will find a photo related to this below.)
+Start the bot: node bot.js
