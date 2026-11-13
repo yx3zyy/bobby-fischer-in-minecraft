@@ -66,7 +66,17 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
 
 4. **Download Stockfish:**
    Download the official Stockfish binary for your operating system from [Stockfish Offical Web](https://stockfishchess.org/)
+   Extract the files:
+<img width="658" height="477" alt="image" src="https://github.com/user-attachments/assets/d3169738-cca7-4b71-94ec-5fae5f5a5860" />
+<img width="640" height="211" alt="image" src="https://github.com/user-attachments/assets/0affa870-c8a7-4e64-a229-d561f40169d0" />
+<img width="872" height="564" alt="image" src="https://github.com/user-attachments/assets/cc518f25-26e0-48a2-9f1f-3a935c32b5e1" />
+
+
    Place the stockfish folder/executable inside the project directory next to bot.js (or specify your custom path inside bot.js).
+   It should look like this:
+<img width="654" height="259" alt="image" src="https://github.com/user-attachments/assets/d4246b82-ba54-4dce-96c4-9552627921bf" />
+<img width="680" height="202" alt="image" src="https://github.com/user-attachments/assets/4b940066-d42d-497d-b17e-16a62dbe5b62" />
+**NOTE:** Once you have downloaded Stockfish and placed it in a folder, don't forget to rename it to "stockfish.exe" (the original filename often includes the word "universal" and version numbers; you should remove all of that and rename the file to "stockfish.exe").
 
 3. **Configure & Run:**
    Open bot.js and configure your server host, port, and bot credentials. (You will find a photo related to this below.)
