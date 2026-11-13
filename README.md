@@ -1,4 +1,4 @@
-# ♟️ Robert James Fischer in Minecraft
+# ♟️ Robert James Fischer (Bobby Fischer) in Minecraft
 
 A Minecraft chess bot powered by the **Stockfish** engine that brings the playing style, historical knowledge, and iconic personality of **Bobby Fischer** into your server.
 
@@ -24,7 +24,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
  * !chess black 3+2 (or !chess white 3+2): starts a game with timer
   
 * **In-game controls:**
- * ´!resign´: player resigns
+ * !resign: player resigns
  * !draw: player requests a draw
  * !time: shows the time remaining for both sides
 
@@ -57,6 +57,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
    ```bash
    git clone [https://github.com/yx3zyy/bobby-fischer-in-minecraft.git](https://github.com/yx3zyy/bobby-fischer-in-minecraft.git)
    cd bobby-fischer-in-minecraft
+   ```
 
 2. **Install Dependencies:**
    npm install
