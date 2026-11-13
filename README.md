@@ -83,6 +83,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
 3. **Configure & Run:**
    Open bot.js and configure your server host, port, and bot credentials. (You will find a photo related to this below.)
    <img width="693" height="161" alt="image" src="https://github.com/user-attachments/assets/dcedce69-6bd0-468b-8433-9c6ca48341d5" />
+   
 You must update the code between lines 9 and 17 according to your server's details. Specifically you must update the server IP address on line 13 as well as the login/registration system settings on line 9 if your server has such a system (the bot will automatically determine whether to perform a login or a registration).
 
 **Start the bot**:
