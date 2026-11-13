@@ -24,14 +24,14 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
  * !chess black 3+2 (or !chess white 3+2): starts a game with timer
   
 * **In-game controls:**
- * !resign: player resigns
+ * ´!resign´: player resigns
  * !draw: player requests a draw
  * !time: shows the time remaining for both sides
 
 * **Support:**
  * !chesshelp: It writes a short list of commands in the chat.
 
-* * **Notation system:**
+* **Notation system:**
  * Example: e4, e5, Nf3, Nc6 (nf6, nc6 also works, bot fixes it)
  * Castling: o-o, o-o-o
  * Promote: e8=Q (or e8q)
@@ -41,7 +41,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
   * 0 - 5: Beginner
   * 5 - 10: Club Player
   * 10 - 15: Titled Player
-  * 15 20: Max power / Super GM / GM Level
+  * 15 20: Max power / Super GM / GM Level  ---- Its at 29th line
     <img width="794" height="113" alt="image" src="https://github.com/user-attachments/assets/d88becaf-6142-46ab-abe2-79d9ef58333f" />
 
 ## 🛠️ Tech Stack
@@ -67,4 +67,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
 
 3. **Configure & Run:**
    Open bot.js and configure your server host, port, and bot credentials. (You will find a photo related to this below.)
+   <img width="693" height="161" alt="image" src="https://github.com/user-attachments/assets/dcedce69-6bd0-468b-8433-9c6ca48341d5" />
+You must update the code between lines 9 and 17 according to your server's details. Specifically you must update the server IP address on line 13 as well as the login/registration system settings on line 9 if your server has such a system (the bot will automatically determine whether to perform a login or a registration).
+
 Start the bot: node bot.js
