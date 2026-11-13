@@ -25,26 +25,26 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
   
 * **In-game controls:**
  * `!resign`: player resigns
- * !draw: player requests a draw
- * !time: shows the time remaining for both sides
+ * `!draw`: player requests a draw
+ * `!time`: shows the time remaining for both sides
 
 * **Support:**
  * `!chesshelp`: It writes a short list of commands in the chat.
 
 * **Notation system:**
- * Example: e4, e5, Nf3, Nc6 (nf6, nc6 also works, bot fixes it)
- * Castling: o-o, o-o-o
- * Promote: e8=Q (or e8q)
+ * `Example`: e4, e5, Nf3, Nc6 (nf6, nc6 also works, bot fixes it)
+ * `Castling`: o-o, o-o-o
+ * `Promote`: e8=Q (or e8q)
 
 * * **Reducing power:**
   * If you find the bot too difficult (or too boring), you can adjust its power in the `bot.js` file. (You will find a photo related to this below.)
-  * 0 - 5: Beginner
-  * 5 - 10: Club Player
-  * 10 - 15: Titled Player
-  * 15 20: Max power / Super GM / GM Level  ---- Its at 29th line
+  * `0 - 5`: Beginner
+  * `5 - 10`: Club Player
+  * `10 - 15`: Titled Player
+  * `15 20`: Max power / Super GM / GM Level  ---- Its at 29th line
     <img width="794" height="113" alt="image" src="https://github.com/user-attachments/assets/d88becaf-6142-46ab-abe2-79d9ef58333f" />
 
-## 🛠️ Tech Stack
+## 📋 Requirements:
 
 * **Language:** JavaScript (Node.js)
 * **Libraries:** `mineflayer` (Minecraft bot API), `chess.js` (Chess rules & validation), Stockfish Engine.
