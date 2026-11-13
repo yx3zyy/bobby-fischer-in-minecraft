@@ -18,18 +18,18 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
 ## ⚙️ Controls
 
 * **Starting the game:**
- * !chess: player plays as white (without time)
- * !chess white: same as !chess
- * !chess black: player plays as black (without time)
- * !chess black 3+2 (or !chess white 3+2): starts a game with timer
+ * `!chess`: player plays as white (without time)
+ * `!chess white`: same as !chess
+ * `!chess black`: player plays as black (without time)
+ * `!chess black 3+2 (or !chess white 3+2)`: starts a game with timer
   
 * **In-game controls:**
- * !resign: player resigns
+ * `!resign`: player resigns
  * !draw: player requests a draw
  * !time: shows the time remaining for both sides
 
 * **Support:**
- * !chesshelp: It writes a short list of commands in the chat.
+ * `!chesshelp`: It writes a short list of commands in the chat.
 
 * **Notation system:**
  * Example: e4, e5, Nf3, Nc6 (nf6, nc6 also works, bot fixes it)
