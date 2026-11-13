@@ -41,7 +41,7 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
   * `0 - 5`: Beginner
   * `5 - 10`: Club Player
   * `10 - 15`: Titled Player
-  * `15 20`: Max power / Super GM / GM Level  ---- Its at 29th line
+  * `15 - 20`: Max power / Super GM / GM Level  ---- Its at 29th line
     <img width="794" height="113" alt="image" src="https://github.com/user-attachments/assets/d88becaf-6142-46ab-abe2-79d9ef58333f" />
 
 ## 📋 Requirements:
