@@ -60,9 +60,11 @@ A Minecraft chess bot powered by the **Stockfish** engine that brings the playin
    ```
 
 2. **Install Dependencies:**
-   ```npm install```
+   ```bash
+   npm install
+   ```
 
-3. **Download Stockfish:**
+4. **Download Stockfish:**
    Download the official Stockfish binary for your operating system from stockfishchess.org.
    Place the stockfish folder/executable inside the project directory next to bot.js (or specify your custom path inside bot.js).
 
